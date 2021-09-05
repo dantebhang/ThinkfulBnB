@@ -142,29 +142,26 @@ footer p {
 @media all and (min-width: 481px) {
   header {
     display: flex;
+    margin-left: auto 
     flex-direction: row;
     justify-content: space-between;
+   
   }
 
   header nav {
     padding: 10px;
+     
   }
 
-  form {
+ form {
     display:flex;
     flex-direction: column;
   }
-
-  /* form div {
-    display:flex;
-    max-width: 10%;
-  } */
 
   .group {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-flow: row nowrap;
     align-items: center;
   }
 
